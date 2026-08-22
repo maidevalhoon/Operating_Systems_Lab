@@ -1,0 +1,27 @@
+Master: Starting intertwined path demonstration
+Master: Created shared memory with ID 0
+Master: Attached to shared memory
+Master: Initialized intertwined paths.
+Master: Created mailboxes:
+First_Process (A) will receive next address in its path from mailbox: 1
+First_Process (B) will receive next address in its path from mailbox: 0
+
+mbox_send: 0 to mbox 0
+mbox_recv: 0 from mbox 0
+mbox_send: 1 to mbox 1
+mbox_recv: 1 from mbox 1
+mbox_send: 2 to mbox 0
+mbox_recv: 2 from mbox 0
+mbox_send: 3 to mbox 1
+mbox_recv: 3 from mbox 1
+mbox_send: 4 to mbox 0
+mbox_recv: 4 from mbox 0
+mbox_send: 5 to mbox 1
+mbox_recv: 5 from mbox 1
+mbox_send: 6 to mbox 0
+mbox_recv: 6 from mbox 0
+mbox_send: 7 to mbox 1
+mbox_recv: 7 from mbox 1
+Master: First child completed
+Master: Second child completed
+Master: All processes completed successfully

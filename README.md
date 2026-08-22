@@ -6,4 +6,6 @@
     * **Threads** and their **Synchronization**
     * **Scheduling Policies**
     * **Memory Management**
+    * **File System**
+    * **Inter-Process Communication**
 * For further insights on each topic, refer to the **Readme** section and the **code** provided in each folder.  
